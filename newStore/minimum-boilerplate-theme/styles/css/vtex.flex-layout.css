@@ -1,0 +1,51 @@
+.flexRow--navBar{
+    position: fixed;
+    top: 34px;
+    left: 0px;
+    width: 1920px;
+    height: 72px;
+    color: #FFFFFF;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    margin-right: 90px;
+}
+
+.flexRow--barraVantagens{
+    height: 80px;
+    background: #F4EDE7 0% 0% no-repeat padding-box;
+    text-align: center;
+}
+
+.flexRow--maisVendidos{
+    height: 80px;
+    text-align: center;
+}
+
+.flexRow--novSemana{
+    position: relative;
+    top: 250px;
+    height: 80px;
+    text-align: center;
+}
+
+.flexRow--textoInfo1{
+    height: 112px;
+    text-align: center;
+}
+
+.flexRow--banners{
+    position: relative;
+    top: 200px;
+    left: 330px;
+    width: 1300px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+.flexRow--bannerHori{
+    position: relative;
+    top: 350px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+

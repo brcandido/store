@@ -1,0 +1,21 @@
+.imageElement--banner1{
+top: 32px;
+left: 0px;
+width: 1920px;
+height: 614px;
+}
+
+.imageElement--produto{
+    position: relative;
+}
+.imageElement--bannerVerti{
+    width: 618px;
+    height: 512px;
+}
+
+.imageElement--bannerHori{
+    top: 400px;
+    left: 340px;
+    height: 212px;
+    width: 1256px;
+}

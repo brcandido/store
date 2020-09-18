@@ -1,0 +1,377 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#slider",
+      "flex-layout.row#barraVantagens",
+      "flex-layout.row#maisVendidos",
+      "slider-layout#maisVendidos",
+      "flex-layout.row#textoInfo1",
+      "flex-layout.row#infoCards",
+      "flex-layout.row#novidadesSemana",
+      "slider-layout#novidadesSemana",
+      "flex-layout.row#bannerHori"
+    ]
+  },
+  "flex-layout.row#slider":{
+    "children":[
+      "image#banner"
+    ],
+    "props":{
+      "fullWidth": true
+    }
+  },
+  "image#banner":{
+    "props": {
+      "src": "https://i.imgur.com/9pKFL9D.png",
+      "blockClass":"banner1"
+    }
+  },
+  "flex-layout.row#barraVantagens":{
+    "children":[
+      "flex-layout.col#spacer",
+      "flex-layout.col#vantagem1",
+      "flex-layout.col#vantagem2",
+      "flex-layout.col#vantagem3",
+      "flex-layout.col#vantagem4",
+      "flex-layout.col#spacer"
+    ],
+    "props":{
+      "blockClass":"barraVantagens",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#maisVendidos":{
+    "children":[
+      "rich-text#maisVendidos"
+    ],
+    "props":{
+      "blockClass":"maisVendidos",
+      "fullWidth": true
+    }
+  },
+  "rich-text#maisVendidos":{
+    "props":{
+      "blockClass":"maisVendidos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Mais Vendidos!"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#vantagem1":{
+    "children":[
+      "rich-text#vtg1"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#vantagem2":{
+    "children":[
+      "rich-text#vtg2"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#vantagem3":{
+    "children":[
+      "rich-text#vtg3"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#vantagem4":{
+    "children":[
+      "rich-text#vtg4"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "rich-text#vtg1":{
+    "props":{
+      "blockClass":"barraVantagens",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "frete gratis!"
+    }
+  },
+  "rich-text#vtg2":{
+    "props":{
+      "blockClass":"barraVantagens",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "1 troca gratis!"
+    }
+  },"rich-text#vtg3":{
+    "props":{
+      "blockClass":"barraVantagens",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "descontos progressivos!"
+    }
+  },
+  "rich-text#vtg4":{
+    "props":{
+      "blockClass":"barraVantagens",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ate 10x sem juros!"
+    }
+  },
+  "slider-layout#maisVendidos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth":false,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "maisVendidos"
+    },
+    "children": [
+      "flex-layout.row#produto1",
+      "flex-layout.row#produto2",
+      "flex-layout.row#produto3",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4"
+    ]
+  },
+  "flex-layout.row#produto1":{
+    "children":[
+      "flex-layout.col#produto1"
+    ]
+  },
+  "flex-layout.col#produto1":{
+    "children":[
+      "flex-layout.row#imgProd1",
+      "flex-layout.row#txtProd1"
+    ]
+  },
+  "flex-layout.row#imgProd1":{
+    "children":[
+      "image#produto1"
+    ]
+  },
+  "image#produto1":{
+    "props": {
+      "src": "https://i.imgur.com/ANw10Bg.png",
+      "blockClass":"produto"
+    }
+  },
+  "flex-layout.row#txtProd1":{
+    "children":[
+      "rich-text#prod1"
+    ]
+  },
+  "rich-text#prod1":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n blusa malha acetinada \n\n **R$ 279,00** \n\n"
+    }
+  },
+  "flex-layout.row#produto2":{
+    "children":[
+      "flex-layout.col#produto2"
+    ]
+  },
+  "flex-layout.col#produto2":{
+    "children":[
+      "flex-layout.row#imgProd2",
+      "flex-layout.row#txtProd2"
+    ]
+  },
+  "flex-layout.row#imgProd2":{
+    "children":[
+      "image#produto2"
+    ]
+  },
+  "image#produto2":{
+    "props": {
+      "src": "https://i.imgur.com/ULXE076.png",
+      "blockClass":"produto"
+    }
+  },
+  "flex-layout.row#txtProd2":{
+    "children":[
+      "rich-text#prod2"
+    ]
+  },
+  "rich-text#prod2":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n blusa malha acetinada \n\n **R$ 279,00** \n\n"
+    }
+  },
+  "flex-layout.row#produto3":{
+    "children":[
+      "flex-layout.col#produto3"
+    ]
+  },
+  "flex-layout.col#produto3":{
+    "children":[
+      "flex-layout.row#imgProd3",
+      "flex-layout.row#txtProd3"
+    ]
+  },
+  "flex-layout.row#imgProd3":{
+    "children":[
+      "image#produto3"
+    ]
+  },
+  "image#produto3":{
+    "props": {
+      "src": "https://i.imgur.com/K4dlhSc.png",
+      "blockClass":"produto"
+    }
+  },
+  "flex-layout.row#txtProd3":{
+    "children":[
+      "rich-text#prod3"
+    ]
+  },
+  "rich-text#prod3":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n blusa malha acetinada \n\n **R$ 279,00** \n\n"
+    }
+  },
+  "flex-layout.row#produto4":{
+    "children":[
+      "flex-layout.col#produto4"
+    ]
+  },
+  "flex-layout.col#produto4":{
+    "children":[
+      "flex-layout.row#imgProd4",
+      "flex-layout.row#txtProd4"
+    ]
+  },
+  "flex-layout.row#imgProd4":{
+    "children":[
+      "image#produto4"
+    ]
+  },
+  "image#produto4":{
+    "props": {
+      "src": "https://i.imgur.com/bR0NHfA.png",
+      "blockClass":"produto"
+    }
+  },
+  "flex-layout.row#txtProd4":{
+    "children":[
+      "rich-text#prod4"
+    ]
+  },
+  "rich-text#prod4":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n blusa malha acetinada \n\n **R$ 279,00** \n\n"
+    }
+  },
+  "flex-layout.row#textoInfo1":{
+    "children":["rich-text#textoInfo1"],
+    "props":{
+      "blockClass": "textoInfo1"
+    }
+  },
+  "rich-text#textoInfo1":{
+    "props":{
+      "blockClass": "textoInfo1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "\n # roupas femininas online \n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with"
+    }
+  },
+  "flex-layout.row#infoCards":{
+    "children":[
+      "flex-layout.col#infoCard1",
+      "flex-layout.col#infoCard2"
+    ],
+    "props":{
+      "blockClass": "banners"
+    }
+  },
+  "flex-layout.col#infoCard1":{
+    "children":["image#infoCard1"]
+  },
+  "flex-layout.col#infoCard2":{
+    "children":["image#infoCard2"]
+  },
+  "image#infoCard1":{
+    "props": {
+      "src": "https://i.imgur.com/aPXBc6v.png",
+      "blockClass":"bannerVerti"
+    }
+  },
+  "image#infoCard2":{
+    "props": {
+      "src": "https://i.imgur.com/Dywp7cb.png",
+      "blockClass":"bannerVerti"
+    }
+  },
+  "flex-layout.row#novidadesSemana":{
+    "children":[
+      "rich-text#novidadesSemana"
+    ],
+    "props":{
+      "blockClass":"novSemana",
+      "fullWidth": true
+    }
+  },
+  "rich-text#novidadesSemana":{
+    "props":{
+      "blockClass":"maisVendidos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Novidades da Semana!"
+    }
+  },
+  "slider-layout#novidadesSemana": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth":false,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "novSemana"
+    },
+    "children": [
+      "flex-layout.row#produto1",
+      "flex-layout.row#produto2",
+      "flex-layout.row#produto3",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4",
+      "flex-layout.row#produto4"
+    ]
+  },
+  "flex-layout.row#bannerHori":{
+    "children":["image#bannerHori"],
+    "props":{"blockClass":"bannerHori"}
+  },
+  "image#bannerHori":{
+    "props":{
+      "src": "https://i.imgur.com/d8JCFIq.png",
+      "blockClass": "bannerHori"
+    }
+  }
+}
