@@ -1,0 +1,100 @@
+.container--popUp{
+    font: normal normal normal 10px/12px Poppins Light;
+    background-color:#7B6C55;
+    opacity: 1;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1
+}
+
+.container--barraVantagens{
+    text-align: left;
+    font: normal normal normal 12px/12px Poppins Light;
+    letter-spacing: 2.4px;
+    color: #17100D;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    top: 25px;
+}
+.container--maisVendidos{
+    text-align: left;
+    font: normal normal normal 12px/12px Poppins Light;
+    letter-spacing: 2.4px;
+    color: #17100D;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    top: 50px;
+}
+.heading-level-1{
+    font: normal normal normal 14px/55px Poppins;
+    text-align: center;
+    letter-spacing: NaNpx;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.heading-level-2{
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 12px/55px Poppins;
+    letter-spacing: 1.2px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.container--textoInfo1{
+    text-align: left;
+    font: normal normal normal 12px/12px Poppins Light;
+    letter-spacing: 2.4px;
+    color: #17100D;
+    opacity: 1;
+    position: relative;
+    top: 50px;
+}
+.paragraph--textoInfo1{
+    width: 740px;
+    text-align: center;
+    font: normal normal normal 12px/25px Poppins;
+    letter-spacing: 0.6px;
+    color: #000000;
+    opacity: 1;
+}
+
+.paragraph--allRights{
+    color: var(--unnamed-color-7b6c55);
+    text-align: center;
+    font: normal normal normal 10px/16px Poppins;
+    letter-spacing: 1px;
+    color: #7B6C55;
+    opacity: 1;
+}
+
+.paragraph--infoFooter{
+    text-align: left;
+    font: normal normal normal 10px/25px Poppins;
+    letter-spacing: 1px;
+    color: #7B6C55;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.paragraph--txtProd{
+    position: relative;
+    top: 30px;
+    text-align: left;
+    font: normal normal normal 12px/55px Poppins;
+    letter-spacing: 0.6px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    line-height: 20px;
+}
+
+.container--txtProd{
+    height: 100px;
+}

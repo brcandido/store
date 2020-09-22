@@ -1,0 +1,47 @@
+.imageElement--banner1{
+    top: 32px;
+    left: 0px;
+    width: 1920px;
+    height: 614px;
+}
+
+.imageElement--produto{
+    position: relative;
+    top: 30px;
+}
+
+.imageElement--bannerVerti{
+    width: 618px;
+    height: 512px;
+}
+
+.imageElement--bannerHori{
+    left: 340px;
+    height: 212px;
+    width: 1256px;
+}
+
+.imageElement--letsEncrypt{
+    width: 104px;
+    height: 31px;
+}
+
+.imageElement--ouroOtima{
+    width: 44px;
+    height: 41px;
+}
+
+.imageElement--certificadoPCI{
+    width: 62px;
+    height: 38px;
+}
+
+.imageElement--badgeAvanti{
+    width: 167px;
+    height: 35px;
+}
+
+.searchBarContainer{
+    width: 245px;
+    padding-left: 40px;
+}

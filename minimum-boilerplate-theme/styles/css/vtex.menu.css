@@ -1,0 +1,29 @@
+.styledLinkContent{
+    padding-top: 8px;
+    text-align: left;
+    font: normal normal normal 12px/12px Poppins Light;
+    letter-spacing: 2.4px;
+    color: #17100D;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.styledLinkContent--sale{
+    color: #CCB28A;
+}
+
+.menuContainerNav{
+    padding-right: 40px;
+}
+
+.menuContainerNav--submenu{
+    background-color: #FFFFFF; 
+    padding-right: 40px;
+    text-align: center;
+    font: normal normal normal 10px/35px Poppins;
+    letter-spacing: 1.5px;
+    color: #000000;
+    opacity: 1;
+    width: 309px;
+    height: 255px;
+}

@@ -1,0 +1,40 @@
+.sliderLayoutContainer--maisVendidos{
+    width: 1260px;
+    height: 549;
+    left: 280px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sliderLeftArrow{
+    left: 30px;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff !important;
+}
+.sliderRightArrow{
+    right: 30px;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff !important;
+}
+
+.sliderLayoutContainer--novSemana{
+    width: 1260px;
+    height: 549;
+    left: 280px;
+    padding-right: 10px;
+    padding-left:10px;
+    top: 250px;
+}
+
+.caretIcon{
+    position: relative;
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+.paginationDot{
+    position: relative;
+    top: 40px;
+}
